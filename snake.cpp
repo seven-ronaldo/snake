@@ -16,6 +16,7 @@ void addscore(){
  	gotoxy(79,13);
  	printf("%d",score%10);
 }
+void ingame()
 int main(){
 	state = MENU;
     menu();
